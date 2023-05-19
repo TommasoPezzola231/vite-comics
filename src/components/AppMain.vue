@@ -1,11 +1,34 @@
 <script>
 
+import InfoSectionMain from '../components/InfoSectionMain.vue'
+
 export default {
-    name: "AppMain"
+    components: {
+        name: "AppMain"
+    },
+    data() {
+        return {
+
+        }
+    }
 }
 
 </script>
 
-<template></template>
+<template>
+    <main class="bg-dark">
+        <section class="customBox debug text-white">
+            <p class="fs-3"> -- Content goes here -- </p>
+        </section>
 
-<style scoped></style>
+        <InfoSectionMain />
+    </main>
+</template>
+
+<style scoped>
+.debug {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+</style>

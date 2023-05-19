@@ -1,7 +1,14 @@
 <script>
 
 export default {
-    name: "AppFooter"
+    components: {
+        name: "AppFooter"
+    },
+    data() {
+        return {
+
+        }
+    }
 }
 
 </script>
