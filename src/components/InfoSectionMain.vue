@@ -1,8 +1,9 @@
 <script>
 
 export default {
+    name: "InfoSectionMain",
+
     components: {
-        name: "InfoSectionMain"
     },
     data() {
         return {

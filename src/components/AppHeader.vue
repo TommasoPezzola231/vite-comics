@@ -1,8 +1,9 @@
 <script>
 
 export default {
+    name: "AppHeader",
+
     components: {
-        name: "AppHeader"
     },
     data() {
         return {

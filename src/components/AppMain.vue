@@ -1,10 +1,11 @@
 <script>
 
-import InfoSectionMain from '../components/InfoSectionMain.vue'
+import InfoSectionMain from './InfoSectionMain.vue'
 
 export default {
+    name: "AppMain",
     components: {
-        name: "AppMain"
+        name: "InfoSectionMain"
     },
     data() {
         return {
