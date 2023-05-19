@@ -5,7 +5,7 @@ import InfoSectionMain from './InfoSectionMain.vue'
 export default {
     name: "AppMain",
     components: {
-        name: "InfoSectionMain"
+        InfoSectionMain
     },
     data() {
         return {
