@@ -84,6 +84,28 @@ export default {
                     "series": "Catwoman",
                     "type": "graphic novel",
                 },
+            ],
+            infoList: [
+                {
+                    img: "/src/assets/buy-comics-merchandise.png",
+                    text: "Digital Comics"
+                },
+                {
+                    img: "/src/assets/buy-comics-merchandise.png",
+                    text: "DC Merchandise"
+                },
+                {
+                    img: "/src/assets/buy-comics-subscriptions.png",
+                    text: "Subscription"
+                },
+                {
+                    img: "/src/assets/buy-comics-shop-locator.png",
+                    text: "Comic Shop Locator"
+                },
+                {
+                    img: "/src/assets/buy-dc-power-visa.svg",
+                    text: "DC Power Visa"
+                }
             ]
         }
     }
@@ -98,7 +120,7 @@ export default {
             <CurrentSeries :cards="cardList" />
         </section>
 
-        <InfoSectionMain />
+        <InfoSectionMain :Elements="infoList" />
     </main>
 </template>
 
