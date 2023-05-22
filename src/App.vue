@@ -7,9 +7,19 @@ import AppFooter from './components/AppFooter.vue'
 <template>
   <AppHeader />
 
+  <div class="jumbotron"></div>
+
   <AppMain />
 
   <AppFooter />
 </template>
 
-<style scoped></style>
+<style scoped>
+.jumbotron {
+  width: 100vw;
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./assets/jumbotron.jpg);
+  background-size: cover;
+}
+</style>
